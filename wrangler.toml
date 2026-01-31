@@ -1,0 +1,8 @@
+name = "kidsjungletour"               # Matches your .workers.dev subdomain
+compatibility_date = "2026-01-01"     # Use a recent date
+main = "src/index.js"                 # Points to your Worker entry
+
+[assets]
+directory = "./public"                # Path to your static folder
+binding = "ASSETS"                    # Name you'll use in code (case-sensitive)
+not_found_handling = "single-page-application"  # Optional but useful if you add SPA routing later
